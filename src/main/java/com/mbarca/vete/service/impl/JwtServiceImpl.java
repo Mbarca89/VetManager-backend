@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class JwtServiceImpl implements JwtService {
 
-    private static final String SECRET_KEY="sUdI3HpxjCXjtPrQngVsl6ZAPLQIQp6iSBiXo2arARM/gt67tz98NhHlX5mCZMG+";
+    private static final String SECRET_KEY="";
 
     @Override
     public String getToken(UserDetails user) {
